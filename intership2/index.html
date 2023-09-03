@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kedar-Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: darkslateblue;
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18, 18, 62);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0px 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(153, 153, 226);
+        }
+
+        main hr {
+            border: 0;
+            background-color: #9c97f1;
+            height: 1.2px;
+            margin: 25px 84px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 80px 0;
+
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+            font-size: 3rem;
+            text-shadow: 3px 3px #000000;
+        }
+
+        .leftSection .buttons {
+            padding: 50px 0;
+        }
+
+        .leftSection .btn {
+            padding: 12px;
+            background: #1e2167;
+            color: antiquewhite;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+
+        }
+
+        .rightSection img {
+            width: 105%;
+            margin: 50px 0px;
+        }
+
+        .purple {
+            color: rgb(255, 242, 0);
+        }
+
+        .text-gray {
+            color: rgb(86, 83, 83);
+        }
+
+        #element {
+            color: rgb(0, 255, 191);
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondSection h1 {
+            font-size: 1.5rem;
+        }
+
+        .secondSection .box {
+            background: white;
+            width: 77vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 130px;
+        }
+
+        .image-top {
+            width: 60px;
+            position: relative;
+            top: -67px;
+            left: -29px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 150px;
+            font-weight: 700;
+            font-family: 'Oswald', sans-serif;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 86px;
+            color: antiquewhite;
+            width: 150px;
+            font-size: 9px;
+            font-family: 'Oswald', sans-serif;
+            font-size: large;
+            
+        }
+
+        footer {
+            background-color: rgb(18, 18, 62);
+            /* height: 233px; */
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 123px;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            color: grey;
+            padding: 12px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Kedar's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hello, My name is <span class="purple">Kedar!!!</span>
+
+                <div>and I am a </div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <a href="Kedar Mhetre (1).png" target="_blank" class="btn"
+                        style="text-decoration: none;">Download Resume</a>
+                    <!-- <button class="btn">Visit Github</button> -->
+                    <a href="https://github.com/kedarmhetre04" target="_blank" class="btn"
+                        style="text-decoration: none;">Visit GitHub</a>
+                </div>
+            </div>
+            </div>
+            <div class="rightSection">
+                <img src="kedarmhetrephoto.jpg" alt="kedar">
+            </div>
+        </section>
+        <hr>
+        <div class="about-me">
+            <p style="
+            font-family: 'Bacasime Antique', serif;
+            font-family: 'Fjalla One', sans-serif;
+            font-size: 50px;
+            position: relative;
+            left: 39%;
+            top: 74%;
+            color: rgb(137, 255, 2);
+            text-shadow: 4px 4px #000000;
+            padding-top: 1%;
+            ">ABOUT ME</p>
+                </div>
+                <br>
+              <p style="font-weight: 20px; font-size: 20px; position: relative; left:2% ;">Hello! I'm Kedar Mhetre, a highly motivated and versatile web developer with a strong foundation in web development and a deep understanding of programming languages such as Java and Python. I am passionate about creating innovative and user-friendly web solutions while continuously expanding my skills and knowledge in the ever-evolving world of technology.</p>  
+        </div>
+        <br>
+        <hr>
+        <section class="secondSection">
+            <span class="text-grey">What i have learnt so far</span>
+            <h1>Skills</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top"
+                        src="https://tse3.mm.bing.net/th?id=OIP.pqcPskVdTrJqfhZ-Z49AtQHaHn&pid=Api&P=0&h=180" alt="">
+                    <div class="vertical-title">
+                        HTML (April 2023)
+                    </div>
+                    <div class="vertical-desc">
+                        Heading , paragraph, lists, img tags, anchor tags,inline and block elements, tables, forms, ids,
+                        classes,entities, semantic tags
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top"
+                        src="https://fthmb.tqn.com/WZNesKyPX1bZd2vvu1uOvb5CDPg=/768x0/filters:no_upscale()/css3-57b597e85f9b58b5c2b338de.png"
+                        alt="">
+                    <div class="vertical-title">
+                        CSS (May 2023)
+                    </div>
+                    <div class="vertical-desc">
+                        Selectors,fonts,developer tools,border,background,box model,margin,padding,buttons,nav bar,media
+                        queries,attributes,pseudo selectors,flex box,box shadow,css grid,animation,transition
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top"
+                        src="https://tse3.explicit.bing.net/th?id=OIP.lrMPUKlpBVukVACvbhWD2QHaHZ&pid=Api&P=0&h=180"
+                        alt="">
+                    <div class="vertical-title">
+                        Javascript (June 2023)
+                    </div>
+                    <div class="vertical-desc">
+                        Variables,datatypes,operators,strings,if-else,array,objects,functions,interaction
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top"
+                        src="https://tse3.mm.bing.net/th?id=OIP.VsvOr2Q2d_Ixr1aUDFGmIQHaHC&pid=Api&P=0&h=180" alt="">
+                    <div class="vertical-title">
+                        React Js (July 2023)
+                    </div>
+                    <div class="vertical-desc">
+                        JSX,props,prop types, Text Utils,state,handling events,dark mode,component structure,
+                        fetching api
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Kedar's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <!-- <li>Services</li> -->
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <a href="https://www.instagram.com/kedar_mhetre04/" target="_blank">
+                    <img src="https://pluspng.com/img-png/instagram-logo-eps-png-instagram-logo-1784.png" alt="Instagram" width="35" height="35">
+                </a>
+                <a href="" target="_blank" style="margin-left: 20px;">
+                    <img src="https://www.freeiconspng.com/uploads/official-facebook-icon-png-4.png" alt="linkedin" width="35" height="35">
+                </a>
+                <a href="https://www.linkedin.com/in/kedar-mhetre-51257b236/" target="_blank"
+                    style="margin-bottom: 20px;">
+                    <img src="https://tse3.mm.bing.net/th?id=OIP.b5oDvUVU5UVN4cefTJGq3wHaHa&pid=Api&P=0&h=180" alt="linkedin" width="35" height="35">
+                </a>
+                <a href="https://github.com/kedarmhetre04" target="_blank" style="margin: 10px 15px;">
+                    <img src="https://www.onmsft.com/wp-content/uploads/2020/04/githubappicon.jpg" alt="linkedin" width="50" height="50">
+                </a>
+
+            </div>
+            <!-- <div class="footer-fourth">
+                
+                
+            </div> -->
+        </div>
+        <div class="footer-rights">
+           &copy www.kedarportfolio.com | All rights reserved
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Designer', 'Web Enthusiast', 'Web Developer'],
+            typeSpeed: 50,
+        });
+
+
+    </script>
+</body>
+
+</html>
